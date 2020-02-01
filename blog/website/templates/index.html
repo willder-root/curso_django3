@@ -1,0 +1,10 @@
+<H1>{{name}}</H1>
+<ol>
+{%for item in lista_tecnologias%}
+    {%if item == 'Django'%}
+        <li><b>{{item}}</b></li>
+    {%else%}
+        <li>{{item}}</li>
+    {%endif%}
+{%endfor%}
+</ol>
